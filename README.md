@@ -23,7 +23,7 @@ $: bashbot -S js
 * `-S [lang]`: Autosave generated code in specified language (either `js`, `py`, `c`, or `jsx`)
 * `-N [name]`: Name of autosaved code (default: bashbot_code)
 * `-P [relative path]`: Path where code will be autosaved (default: directory from which bashbot was called)
-* `L`: Enable logging
+* `-L`: Enable logging
 
 ## Special Keywords:
 These words, if entered by themselves during a BashBot session, will trigger different things locally but will not be sent as a prompt to ChatGPT:
